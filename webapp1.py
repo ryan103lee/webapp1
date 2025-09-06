@@ -70,8 +70,8 @@ def main():
 
   st.markdown(subheader_template, unsafe_allow_html=True)
   #st.sidebar.image("nlp.jpg", use_column_width=True)
-  #st.sidebar.image("nlp.jpg", use_container_width=True)
-  st.sidebar.image("nlp.jpg", width='stretch')
+  st.sidebar.image("nlp.jpg", use_container_width=True)
+  #st.sidebar.image("nlp.jpg", width='stretch')
   
   
   #st.title("NLP Web App")
